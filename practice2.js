@@ -24,21 +24,22 @@ function randomNum() {
 }
 
 // random button to convert random gradients..
+//Use the function randomNum to make your code less repetitive
 function rdmBtn() {
 	var clr1 = "rgb("
-				+ (Math.floor(Math.random() * 255)) 
+				+ randomNum()
 				+ ","
-				+ (Math.floor(Math.random() * 255))
+				+ randomNum()
 				+ ","
-				+ (Math.floor(Math.random() * 255))
+				+ randomNum()
 				+ ')';
 
 	var clr2 = "rgb("
-				+ (Math.floor(Math.random() * 255)) 
+				+ randomNum()
 				+ ","
-				+ (Math.floor(Math.random() * 255))
+				+ randomNum()
 				+ ","
-				+ (Math.floor(Math.random() * 255))
+				+ randomNum()
 				+ ')';
 
 	body.style.background = "linear-gradient(to right," 
